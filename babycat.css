@@ -1,0 +1,118 @@
+*{  
+    background-color:rgb(33, 33, 33);
+    color:white;
+    margin:0px;
+}
+
+
+h1{ font-family: 'Archivo Black', sans-serif;
+    padding-left: 120px;
+    padding-top: 120px;
+    display:inline-block;
+}
+
+h3{ 
+    display:inline-block;
+}
+.love{
+    padding-left:120px;
+    padding-top:70px;
+    
+}
+.love li{ 
+    display:inline;
+    color:grey;
+    
+    font-size:20px;
+}
+
+.love li:hover{ 
+    color:yellowgreen;
+}
+
+.hate{
+    padding:0px;
+    padding-top:70px;}
+
+
+.hate li{ 
+    display:inline;
+    color:grey;  
+    font-size:20px;
+}
+
+.hate li:hover{ 
+    color:rgb(255, 134, 82)
+}
+main{
+    margin-left:120px;
+}
+
+#card{
+    /* margin-left:120px; */
+    margin-top:10px;
+    background-color:rgb(52, 52, 52); 
+    width:300px;
+    height:420px;
+    margin-right:40px;
+    box-sizing:border-box;
+    border-radius:20px;
+    display:inline-block;
+}
+#baby{
+    width:300px;
+    height:350px;
+    background-image:url('baby.jpeg');
+    background-size:cover;
+    display:inline-block;
+}
+
+.info{
+    text-align:left;
+    background-color:rgb(52, 52, 52); 
+    margin:20px;
+}
+
+#cat{ 
+    width:300px;
+    height:350px;
+    background-image:url('cat.jpeg');
+    background-size:cover;
+    display:inline-block;
+}
+
+#egg{ 
+    width:300px;
+    height:350px;
+    background-image:url('egg.jpeg');
+    background-size:cover;
+    background-position:-120px;
+    display:inline-block;
+}
+
+#cu{ 
+    width:300px;
+    height:350px;
+    background-image:url('cu.jpg');
+    background-size:cover;
+    background-position:-120px;
+    display:inline-block;
+}
+
+#susi{ 
+    width:300px;
+    height:350px;
+    background-image:url('susi.jpg');
+    background-size:cover;
+    background-position:-120px;
+    display:inline-block;
+}
+
+#cham{ 
+    width:300px;
+    height:350px;
+    background-image:url('cham.jpeg');
+    background-size:cover;
+    background-position:-80px;
+    display:inline-block;
+}
