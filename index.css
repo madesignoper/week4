@@ -1,0 +1,76 @@
+* {
+    background-color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 0;
+} 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+header h1 {
+    font-family: 'Rozha One', serif;
+}
+
+header nav li{
+    display: inline-block;
+    list-style: none;
+    text-align : center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #757575;
+    
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+
+header nav li:hover{
+    font-weight: bold;  
+    color: #263238;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.person,.animal {
+    text-align: center;
+}
+
+.person article,.animal article {
+    display: inline-block;
+    box-sizing: border-box;
+    padding : 16px;
+    border: 0.5px solid #bdbdbd;
+    border-radius: 4px;
+    margin: 8px;
+    background-color: #f5f5f5;
+}
+
+.person article img, .animal article img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.person article h3,.animal article h3 {
+    text-align: center;
+    background-color: transparent;
+}
+
+.person article:hover,.animal article:hover {
+    background-color:#e0e0e0;
+}
